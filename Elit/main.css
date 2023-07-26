@@ -263,7 +263,7 @@ img{
 
 
 .slider{
-    margin-top: 3800px;
+    margin-top: 3000px;
     width: 750px;
     height: 350px;
     overflow: hidden;
@@ -376,21 +376,22 @@ input[name="r"] {
     }  
 }
 
-.telefon{
+
+
+.contacts{
+    padding-bottom: 70px;
+}
+
+.tel{
     margin-top: -115px;
     margin-left: 65%;
     font-size: 36px;
 }
 
 @media screen and (max-width:574px) {
-    .telefon{font-size: 24px;
-        padding-top: 37px;
-        margin-left: 410px;
+    .tel{font-size: 24px;
+        padding-top: 50px;
+        margin-left: 400px;
         
     }  
 }
-
-.contacts{
-    padding-bottom: 70px;
-}
-
