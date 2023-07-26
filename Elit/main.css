@@ -172,6 +172,23 @@ img{
     }  
 }
 
+.photo{
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    background-color: coral;   
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.2);
+}
+
+@media screen and (max-width:574px) {
+    .photo{
+        width: 200px;
+        height: 200px;
+       
+    }  
+}
+
 .photos{
     margin-top: 250px;
     display: flex;
