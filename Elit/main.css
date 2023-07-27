@@ -364,8 +364,8 @@ input[name="r"] {
 
 
 .adr{
-    margin-left: 10%;
-    padding-top: 120px;
+    
+    margin-top: 13%;
     font-size: 36px;
 }
 
@@ -380,18 +380,20 @@ input[name="r"] {
 
 .contacts{
     padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .tel{
-    margin-top: -115px;
-    margin-left: 65%;
+    margin-top: 8%;
+    
     font-size: 36px;
 }
 
 @media screen and (max-width:574px) {
     .tel{font-size: 24px;
         padding-top: 50px;
-        margin-left: 270px;
+        
         
     }  
 }
