@@ -364,14 +364,13 @@ input[name="r"] {
 
 
 .adr{
-    
-    margin-top: 13%;
+
     font-size: 36px;
 }
 
 @media screen and (max-width:574px) {
     .adr{font-size: 24px;
-        padding-top: 20px;
+        
         
     }  
 }
@@ -379,19 +378,21 @@ input[name="r"] {
 
 
 .contacts{
+    margin-top: 10%;
     padding-bottom: 70px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .tel{
-    margin-top: 5%;
+    
     font-size: 36px;
 }
 
 @media screen and (max-width:574px) {
     .tel{font-size: 24px;
-        padding-top: 35px;
+        
         
         
     }  
